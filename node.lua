@@ -7,7 +7,6 @@ local on = false
 local font = resource.load_font("silkscreen.ttf")
 
 
-
 util.data_mapper{
     state = function(state)
         on = state == '1'
@@ -16,7 +15,7 @@ util.data_mapper{
 
 function node.render()
     if on then
-        font:write(120, 320, "Hello Dula", 100, 1,1,1,1) --gl.clear(0, 1, 0, 1) -- green 
+        font:write(120, 320, "Hello Dula", 100, 1,1,1,1) 
     else
         gl.clear(1, 0, 0, 1) -- red
     end
