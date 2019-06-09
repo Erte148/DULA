@@ -4,8 +4,11 @@ util.no_globals()
 
 local on = false
 
-local font = resource.load_font("slkscr.ttf")
 
+local video = resource.load_video{
+    file = "video.mp4";
+    looped = true;
+}
 
 util.data_mapper{
     state = function(state)
@@ -15,7 +18,7 @@ util.data_mapper{
 
 function node.render()
     if on then
-        font:write(120, 320, "Hello Dula", 100, 1,1,1,1) 
+        video:draw(0, 0, WIDTH, HEIGHT)
     else
         gl.clear(1, 0, 0, 1) -- red
     end
