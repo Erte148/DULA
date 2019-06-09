@@ -4,6 +4,11 @@ util.no_globals()
 
 local on = false
 
+local video = resource.load_video{
+    file = "video.mp4";
+    looped = true;
+}
+
 util.data_mapper{
     state = function(state)
         on = state == '1'
@@ -12,7 +17,7 @@ util.data_mapper{
 
 function node.render()
     if on then
-        gl.clear(0, 1, 0, 1) -- green
+        video:draw(0, 0, WIDTH, HEIGHT) --gl.clear(0, 1, 0, 1) -- green 
     else
         gl.clear(1, 0, 0, 1) -- red
     end
