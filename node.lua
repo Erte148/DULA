@@ -4,7 +4,7 @@ util.no_globals()
 
 local on = false
 
-local font = resource.load_font("silkscreen.ttf")
+local font = resource.load_font("slkscr.ttf")
 
 
 util.data_mapper{
