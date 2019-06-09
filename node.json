@@ -1,5 +1,5 @@
 {
-    "name": "GPIO Demo",
+    "name": "GPIO2 Demo",
     "permissions": {
         "gpio": "Access GPIO"
     },
