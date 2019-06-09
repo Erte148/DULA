@@ -1,6 +1,6 @@
 {
-    "name": "GPIO Demo",
-    "author": "Florian Wesch <fw@info-beamer.com>",
-    "desc": "Demonstrate GPIO integration",
-    "repository": "https://github.com/info-beamer/package-gpio-demo"
+    "name": "GPIO2 Demo",
+    "author": "",
+    "desc": "Demonstrate GPIO2 integration",
+    "repository": "https://github.com/Erte148/DL"
 }
