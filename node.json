@@ -9,5 +9,14 @@
         "name": "pin",
         "type": "integer",
         "default": 18
-    }]
+    },
+    {
+        "title": "PIN2",
+        "ui_width": 4,
+        "name": "pin2",
+        "type": "integer",
+        "default": 17
+    }            
+               
+               ]
 }
