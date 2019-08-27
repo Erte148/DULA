@@ -1,6 +1,6 @@
 {
     "name": "GPIO2 Demo",
     "author": "",
-    "desc": "Demonstrate GPIO2 integration",
-    "repository": "https://github.com/Erte148/DL"
+    "desc": "Demonstrate Multi GPIO integration",
+    "repository": "https://github.com/Erte148/DULA"
 }
